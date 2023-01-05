@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/clock/static/css/main.0167f0ca.css",
+    "main.js": "/clock/static/js/main.b4a620a0.js",
+    "static/media/night.jpg": "/clock/static/media/night.5e09340b1ebaca08bb3a.jpg",
+    "static/media/newmorning.jpg": "/clock/static/media/newmorning.9f77483f0cf9996ece7b.jpg",
+    "static/media/icon-sun.svg": "/clock/static/media/icon-sun.cb7a2aac3be7bf88b4cf17bd97d62fd2.svg",
+    "index.html": "/clock/index.html",
+    "static/media/icon-moon.svg": "/clock/static/media/icon-moon.83b9f0dbe53bfaab2e1c6dc344545e9c.svg",
+    "static/media/icon-arrow-up.svg": "/clock/static/media/icon-arrow-up.9f27dbc98aef9217ffedf9388f4088d5.svg",
+    "main.0167f0ca.css.map": "/clock/static/css/main.0167f0ca.css.map",
+    "main.b4a620a0.js.map": "/clock/static/js/main.b4a620a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0167f0ca.css",
+    "static/js/main.b4a620a0.js"
+  ]
+}
