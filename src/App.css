@@ -1,0 +1,225 @@
+*{
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContiner{
+  position: relative;
+
+}
+.bgImages {
+  width: 77vw;
+  height: 90vh;
+  z-index: -1;
+overflow: hidden;
+
+}
+.bgImages img{
+  width: 100%;
+  height:100%;
+  background-size: cover;
+}
+.headText{
+  width: 50%;
+  color: white;
+  font-size: 1.4rem;
+  top: 40px;
+  left: 47px;
+  position: absolute;
+
+}
+.writer{
+  font-weight: 800;
+  font-size: 1.7rem;
+
+}
+.hours{
+  color: white;
+  font-size: 8rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.pmam{
+  font-size: 3rem;
+  color: white;
+
+}
+.currentlyTime{
+  width: 90%;
+  height: 200px;
+  bottom: 100px;
+  margin: 0 50px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  flex-wrap: wrap;
+  
+}
+.currentlyTime p{
+  color: white;
+  font-size: 1.4rem;
+}
+.location{
+  font-size: 1.6rem;
+  color: white;
+  line-height: 4px;
+}
+.morning{
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+}
+.morning span{
+  margin: 0 20px;
+}
+.morning img{
+  width: 30px;
+  height: 30px;
+}
+.time{
+  white-space: nowrap;
+}
+
+
+.lessMore{
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.btn{
+  background-color: #FFFFFF;
+  display: flex;
+  height: 40px;
+  width: 110px;
+  padding: 10px 10px ;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  outline: none;
+  border: none;
+  margin: 20px;
+  color: #303030;
+  cursor: pointer;
+z-index: 100;
+transition: .7s ease;
+position: relative;
+
+}
+.btn:hover{
+color: white;
+background-color: #5f5d5d;
+}
+
+.btn img{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0;
+  rotate: 180deg;
+  margin: 0 10px;
+}
+
+
+.mainSlider{
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffffaf;
+  z-index: 100;
+  color: #303030;
+}
+.childSlider{
+  width: 75%;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.upSection{
+  width: 40%;
+}
+.mainHours{
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+.dayOfWeek{
+  font-size: 2.6rem;
+  font-weight: 900;
+
+}
+.mainSlider-on{
+  opacity: 0;
+}
+ 
+@media screen and (max-width:600px) {
+
+.bgImages{
+  width: 100vw;
+}
+.headText{
+  width: 92%;
+  font-size: 1.2rem;
+  left: 16px;
+}
+.morning{
+  white-space: nowrap;
+}
+.currentlyTime{
+  display: flex;
+  flex-direction: column;
+    width: 94%;
+    height: 370px;
+    margin: 34px 15px;
+    z-index: 2;
+    white-space: wrap;
+}
+
+  .btn{
+    position: absolute;
+    left: -16px;
+  }
+  .childSlider{
+    flex-direction: column;
+    width: 75%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .upSection{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hoursSlider{
+    color: #303030;
+    font-size: 1.7rem;
+    font-weight: 900;
+  }
+  .dayOfWeek{
+    font-size: 2.6rem;
+    font-weight: 900;
+  
+  }
+  .sliderName{
+    font-size: 1.3rem;
+  }
+  
+  }
